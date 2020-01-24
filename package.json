@@ -4,7 +4,8 @@
   "description": "This is my portfolio 4.",
   "main": "p4server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node p4server.js"
   },
   "author": "Dayoung Lee",
   "license": "ISC",
