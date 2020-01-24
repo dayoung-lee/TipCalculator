@@ -13,7 +13,7 @@ app.use(express.static(__dirname + '/public'));
 app.get('/', function(req, res){
     fs.readdir('./tipHistory', function(err, filelist){
         var title = 'Welcome';
-        var description = 'Hi, this is main page. Welcome! :)';
+        var description = 'Hi, this is a main page. Welcome! Thank you for visiting here.';
         var list = template.List(filelist);
         var content = template.Content(title, list, `${description}`, `
         <input class = "mainBtn" type = "button" value = "Tip Calculator" onclick="location.href = '/tip'">`);
