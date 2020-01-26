@@ -64,7 +64,7 @@ app.get('/tip', function(req, res){
                             <p>How much was your bill?</p>
                                 <p>$<input type = "text" name = "initCal" placeholder = "Bill Amount"></p>
                             <p>How was your service?</P>
-                                <input type = "text" name = "tip" placeholder = "other" size = "8"> %                                
+                                <input type = "text" name = "tip" placeholder = "tip" size = "8"> %                                
                             <p>How many people are sharing the bill?</p>
                                 <p><input type = "text" name = "people" placeholder = "Number of People"> people</p><br/><br/>
                             <input id = "calBtn" type = "submit" value = "CALCULATE !">
